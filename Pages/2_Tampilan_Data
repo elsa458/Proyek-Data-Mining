@@ -1,0 +1,17 @@
+import streamlit as st
+import pandas as pd
+
+st.header("Data Lifestyle Mahasiswa")
+
+# Load file
+@st.cache_data
+def load_data():
+    return pd.read_excel("Data Set Student lifestyle.xlsx")
+
+df = load_data()
+
+st.subheader("Tabel Data")
+st.dataframe(df)
+
+st.subheader("Statistik Deskriptif")
+st.write(df.describe())
