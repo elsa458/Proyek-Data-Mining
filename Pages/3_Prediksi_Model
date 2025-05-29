@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.header("Prediksi Model")
+st.title("Prediksi Model")
+st.markdown("Halaman ini nantinya akan digunakan untuk memprediksi tingkat stres mahasiswa berdasarkan fitur gaya hidup.")
 
-st.write("Di sini nanti kamu bisa masukkan fitur-fitur dan melakukan prediksi model.")
-# Tambahkan model & form input di sini nanti
