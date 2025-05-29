@@ -1,4 +1,5 @@
 import streamlit as st
 
-st.title("aplikasi")
-st.write("Ini adalah halaman aplikasi.")
+st.title("Halaman Utama")
+st.markdown("Ini adalah halaman utama untuk dashboard analisis gaya hidup mahasiswa.")
+
