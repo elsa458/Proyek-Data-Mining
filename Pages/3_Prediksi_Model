@@ -1,0 +1,6 @@
+import streamlit as st
+
+st.header("Prediksi Model")
+
+st.write("Di sini nanti kamu bisa masukkan fitur-fitur dan melakukan prediksi model.")
+# Tambahkan model & form input di sini nanti
