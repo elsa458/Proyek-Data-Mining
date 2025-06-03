@@ -1,7 +1,11 @@
 import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
 
+st.set_page_config(page_title="Aplikasi Tingkat Stres", layout="centered")
+st.sidebar.header("Main Menu")
 
-st.set_page_config(page_title="Dashboard Gaya Hidup", layout="wide")
-
-st.title("Dashboard Data Gaya Hidup Mahasiswa dan Stres")
-st.markdown("Selamat datang di aplikasi analisis gaya hidup mahasiswa berdasarkan data yang telah dikumpulkan.")
+#Memberikan Judul dan Gambar yang menarik
+st.title("APLIKASI MENGUKUR TINGKAT STRES")
+st.image ("https://dinkes.bandaacehkota.go.id/wp-content/uploads/sites/36/2025/02/stress.png")
+st.write ("Oleh Kelompok 16")
